@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
           But meanwhile, you can find me from any social media!{' '}
           <br></br><code className={styles.code}>but where?</code>
         </p>
-
+        <Image src="/images/kod_yazin.gif" alt="me" width="500" height="280"/>
       </main>
 
       <footer className={styles.footer}>
