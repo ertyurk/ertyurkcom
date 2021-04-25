@@ -4,7 +4,7 @@ module.exports = {
       {
         source: '/',
         destination: 'https://www.linkedin.com/in/mehmeterturk/',
-        permanent: true,
+        permanent: false,
       },
     ]
   },
